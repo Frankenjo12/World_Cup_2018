@@ -1,0 +1,18 @@
+C:\My Files\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows Forms App.csproj.AssemblyReference.cache
+C:\My Files\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows_Forms_App.Initial_settings.resources
+C:\My Files\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows Forms App.csproj.GenerateResource.cache
+C:\My Files\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows Forms App.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Files\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows Forms App.AssemblyInfoInputs.cache
+C:\My Files\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows Forms App.AssemblyInfo.cs
+C:\My Files\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows Forms App.csproj.CoreCompileInputs.cache
+C:\My Files\World Cup 2018\Windows Forms App\bin\Debug\net6.0-windows\Windows Forms App.exe
+C:\My Files\World Cup 2018\Windows Forms App\bin\Debug\net6.0-windows\Windows Forms App.deps.json
+C:\My Files\World Cup 2018\Windows Forms App\bin\Debug\net6.0-windows\Windows Forms App.runtimeconfig.json
+C:\My Files\World Cup 2018\Windows Forms App\bin\Debug\net6.0-windows\Windows Forms App.dll
+C:\My Files\World Cup 2018\Windows Forms App\bin\Debug\net6.0-windows\Windows Forms App.pdb
+C:\My Files\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows Forms App.dll
+C:\My Files\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\refint\Windows Forms App.dll
+C:\My Files\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows Forms App.pdb
+C:\My Files\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows Forms App.genruntimeconfig.cache
+C:\My Files\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\ref\Windows Forms App.dll
+C:\My Files\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows_Forms_App.Favorite_National_Team.resources
