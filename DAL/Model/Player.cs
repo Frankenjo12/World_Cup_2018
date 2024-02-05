@@ -14,19 +14,21 @@ namespace DAL.Model
         public bool Captain { get; set; }
         public string Picture { get; set; }
 
-        public override string ToString()
-        {
-            return $"{Name}|{Number}|{Picture}";
-        }
-
         public override bool Equals(object obj)
         {
-            return base.Equals(obj);
+            return obj is Player player &&
+                   Name == player.Name &&
+                   Number == player.Number;
         }
 
         public override int GetHashCode()
         {
-            return base.GetHashCode();
+            return HashCode.Combine(Name, Number);
+        }
+
+        public override string ToString()
+        {
+            return $"{Name}|{Number}|{Picture}";
         }
     }
 }

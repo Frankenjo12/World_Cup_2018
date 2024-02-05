@@ -7,5 +7,8 @@
     <Compile Update="Initial settings.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Rankings.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

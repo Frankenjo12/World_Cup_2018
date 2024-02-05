@@ -13,6 +13,7 @@
   <ItemGroup>
     <Folder Include="FavoriteTeams\" />
     <Folder Include="FavoritePlayers\" />
+    <Folder Include="Images\" />
     <Folder Include="Repo\Config\" />
   </ItemGroup>
 
