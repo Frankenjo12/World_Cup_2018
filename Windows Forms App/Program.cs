@@ -2,6 +2,7 @@ namespace Windows_Forms_App
 {
     internal static class Program
     {
+
         private const string PATH = @"../../../../DAL/Repo/Config/Config.txt";
 
         /// <summary>

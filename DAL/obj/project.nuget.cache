@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cyoc3Z9j65CJrNmxBXOAiwN0Q1KyUFPuzaRdhgv2iyQ89XMFs9dJeysjq9xNM/J/cwbzmdjzlMNsTPt1Xz5zaA==",
+  "dgSpecHash": "VY8f8tkjBhvrVd9UbUZueB6HQZckx7vP6jGL+eAy04/jiVJK7OXkuqytcKbhPQi7AYB5sQ6NDH+npNhrYmGNIQ==",
   "success": true,
-  "projectFilePath": "C:\\My Files\\World Cup 2018\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\My Files\\Algebra\\World Cup 2018\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Franko\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

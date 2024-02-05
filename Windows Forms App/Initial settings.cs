@@ -46,9 +46,8 @@ namespace Windows_Forms_App
 
             File.WriteAllLines(PATH, lines);
 
-            var fnt = new Favorite_National_Team();
-            fnt.Show();
-            this.Hide();
+            new Favorite_National_Team().Show();
+            Hide();
         }
     }
 }
