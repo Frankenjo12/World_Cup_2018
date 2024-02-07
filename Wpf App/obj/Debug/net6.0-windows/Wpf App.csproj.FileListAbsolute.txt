@@ -1,0 +1,31 @@
+C:\My Files\Algebra\World Cup 2018\Wpf App\bin\Debug\net6.0-windows\Wpf App.exe
+C:\My Files\Algebra\World Cup 2018\Wpf App\bin\Debug\net6.0-windows\Wpf App.deps.json
+C:\My Files\Algebra\World Cup 2018\Wpf App\bin\Debug\net6.0-windows\Wpf App.runtimeconfig.json
+C:\My Files\Algebra\World Cup 2018\Wpf App\bin\Debug\net6.0-windows\Wpf App.dll
+C:\My Files\Algebra\World Cup 2018\Wpf App\bin\Debug\net6.0-windows\Wpf App.pdb
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\Wpf App.csproj.AssemblyReference.cache
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\App.g.cs
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\Wpf App_MarkupCompile.cache
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\Wpf App_MarkupCompile.lref
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\MainWindow.baml
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\Wpf App.g.resources
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\Wpf App.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\Wpf App.AssemblyInfoInputs.cache
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\Wpf App.AssemblyInfo.cs
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\Wpf App.csproj.CoreCompileInputs.cache
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\Wpf App.dll
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\refint\Wpf App.dll
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\Wpf App.pdb
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\Wpf App.genruntimeconfig.cache
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\ref\Wpf App.dll
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\TeamOverview.g.cs
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\TeamOverview.baml
+C:\My Files\Algebra\World Cup 2018\Wpf App\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\My Files\Algebra\World Cup 2018\Wpf App\bin\Debug\net6.0-windows\DAL.dll
+C:\My Files\Algebra\World Cup 2018\Wpf App\bin\Debug\net6.0-windows\DAL.pdb
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\Wpf App.csproj.CopyComplete
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\TeamDetails.g.cs
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\TeamDetails.baml
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\PlayerDetails.g.cs
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\PlayerDetails.baml
