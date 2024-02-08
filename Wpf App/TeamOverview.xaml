@@ -8,12 +8,12 @@
         Title="TeamOverview" Height="450" Width="800">
     <Grid>
         <ComboBox SelectionChanged="CheckCbChange" Name="cbFavorite" HorizontalAlignment="Left" Margin="62,67,0,0" VerticalAlignment="Top" Width="184"/>
-        <Label Content="Favorite Team" HorizontalAlignment="Left" Margin="62,102,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.747,0.31"/>
-        <Label Content="Enemy Team" HorizontalAlignment="Right" Margin="0,102,47,0" VerticalAlignment="Top" RenderTransformOrigin="-0.747,0.31"/>
-        <Label Name="lbScore" Content="Score" FontSize="30" HorizontalAlignment="Center" Margin="0,94,0,0" VerticalAlignment="Top" Width="108" Height="64" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Button Name="btnFavorite" Content="Show Favorite Info" HorizontalAlignment="Left" Margin="251,67,0,0" VerticalAlignment="Top" Width="131" Height="22" Click="btnFavorite_Click"/>
+        <Label Content="{DynamicResource lbFavoriteTeam}" HorizontalAlignment="Left" Margin="62,102,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.747,0.31"/>
+        <Label Content="{DynamicResource lbEnemyTeam}" HorizontalAlignment="Right" Margin="0,102,47,0" VerticalAlignment="Top" RenderTransformOrigin="-0.747,0.31"/>
+        <Label Name="lbScore" Content="{DynamicResource lbScore}" FontSize="30" HorizontalAlignment="Center" Margin="0,94,0,0" VerticalAlignment="Top" Width="108" Height="64" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Name="btnFavorite" Content="{DynamicResource btnFavorite}" HorizontalAlignment="Left" Margin="251,67,0,0" VerticalAlignment="Top" Width="131" Height="22" Click="btnFavorite_Click"/>
         <ComboBox SelectionChanged="CheckCbChange" Name="cbEnemy" HorizontalAlignment="Right" Margin="0,67,174,0" VerticalAlignment="Top" Width="184"/>
-        <Button Name="btnEnemy"  Content="Show Enemy Info" HorizontalAlignment="Right" Margin="0,67,47,0" VerticalAlignment="Top" Width="122" Height="22" Click="btnEnemy_Click"/>
+        <Button Name="btnEnemy"  Content="{DynamicResource btnEnemy}" HorizontalAlignment="Right" Margin="0,67,47,0" VerticalAlignment="Top" Width="122" Height="22" Click="btnEnemy_Click"/>
         <Canvas Name="cvField" Margin="103,158,105,10">
             <Canvas.Background>
                 <ImageBrush ImageSource="/Fotball_Field.jpg"/>
@@ -25,9 +25,9 @@
             <WrapPanel Name="wpMidfieldersEnemy" Orientation="Vertical" Height="266" Width="74" HorizontalAlignment="Center" VerticalAlignment="Center" Canvas.Right="147"/>
             <WrapPanel Name="wpAttackersEnemy" Orientation="Vertical" Height="266" Width="74" HorizontalAlignment="Center" VerticalAlignment="Center" Canvas.Right="221"/>
             <Image Name="imgGoalieFav" Visibility="Hidden" Height="38" Canvas.Left="10" Canvas.Top="114" Width="38" Source="/NoImage.jpg" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <Image Name="imgGoalieEnemy" Visibility="Hidden" Height="38" Canvas.Left="544" Canvas.Top="114" Width="38" Source="/NoImage.jpg" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Image Name="imgGoalieEnemy" Visibility="Hidden" Height="38" Canvas.Right="10" Canvas.Top="114" Width="38" Source="/NoImage.jpg" HorizontalAlignment="Right" VerticalAlignment="Center"/>
         </Canvas>
-        <Button Content="Settings" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="Button_Click" Background="White"/>
-        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="64,10,0,0" VerticalAlignment="Top" Foreground="Red" Click="btnExit_Click_1"/>
+        <Button Content="{DynamicResource btnSettings}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="Button_Click" Background="White"/>
+        <Button x:Name="btnExit" Content="{DynamicResource btnExit}" HorizontalAlignment="Left" Margin="64,10,0,0" VerticalAlignment="Top" Foreground="Red" Click="btnExit_Click_1"/>
     </Grid>
 </Window>

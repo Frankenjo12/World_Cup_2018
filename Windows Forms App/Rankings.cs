@@ -10,6 +10,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Reflection.Metadata;
+using iTextSharp.text.pdf;
+using iTextSharp.text;
 
 namespace Windows_Forms_App
 {
@@ -148,6 +151,72 @@ namespace Windows_Forms_App
         {
             new Favorite_National_Team().Show();
             Hide();
+        }
+
+        private void btnPrintPlayers_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+            saveFileDialog1.Filter = "PDF files (*.pdf)|*.pdf|All files (*.*)|*.*";
+            saveFileDialog1.Title = "Save PDF File";
+            saveFileDialog1.ShowDialog();
+
+            if (saveFileDialog1.FileName != "")
+            {
+                iTextSharp.text.Document doc = new iTextSharp.text.Document();
+                try
+                {
+                    PdfWriter writer = PdfWriter.GetInstance(doc, new FileStream(saveFileDialog1.FileName, FileMode.Create));
+                    doc.Open();
+
+                    foreach (var item in lbPlayers.Items)
+                    {
+                        doc.Add(new Paragraph(item.ToString()));
+                    }
+
+                    MessageBox.Show("PDF file saved successfully!");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("An error occurred: " + ex.Message);
+                }
+                finally
+                {
+                    doc.Close();
+                }
+            }
+        }
+
+        private void btnPrintMatches_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+            saveFileDialog1.Filter = "PDF files (*.pdf)|*.pdf|All files (*.*)|*.*";
+            saveFileDialog1.Title = "Save PDF File";
+            saveFileDialog1.ShowDialog();
+
+            if (saveFileDialog1.FileName != "")
+            {
+                iTextSharp.text.Document doc = new iTextSharp.text.Document();
+                try
+                {
+                    PdfWriter writer = PdfWriter.GetInstance(doc, new FileStream(saveFileDialog1.FileName, FileMode.Create));
+                    doc.Open();
+
+                    foreach (var item in lbMatches.Items)
+                    {
+                        doc.Add(new Paragraph(item.ToString()));
+                    }
+
+                    MessageBox.Show("PDF file saved successfully!");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("An error occurred: " + ex.Message);
+                }
+                finally
+                {
+                    doc.Close();
+                }
+            }
         }
     }
 }

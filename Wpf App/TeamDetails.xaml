@@ -7,15 +7,15 @@
         mc:Ignorable="d"
         Title="TeamDetails" Height="450" Width="450">
     <Grid>
-        <Label FontSize="20" Content="Team Name:" HorizontalAlignment="Left" Margin="39,37,0,0" VerticalAlignment="Top"/>
-        <Label FontSize="20" Content="FIFA Code:" HorizontalAlignment="Left" Margin="39,79,0,0" VerticalAlignment="Top"/>
-        <Label FontSize="20" Content="Games Played:" HorizontalAlignment="Left" Margin="39,121,0,0" VerticalAlignment="Top"/>
-        <Label FontSize="20" Content="Wins:" HorizontalAlignment="Left" Margin="39,163,0,0" VerticalAlignment="Top"/>
-        <Label FontSize="20" Content="Losses:" HorizontalAlignment="Left" Margin="39,205,0,0" VerticalAlignment="Top"/>
-        <Label FontSize="20" Content="Draws:" HorizontalAlignment="Left" Margin="39,247,0,0" VerticalAlignment="Top"/>
-        <Label FontSize="20" Content="Goals Scored:" HorizontalAlignment="Left" Margin="39,289,0,0" VerticalAlignment="Top"/>
-        <Label FontSize="20" Content="Goals Conceived:" HorizontalAlignment="Left" Margin="39,331,0,0" VerticalAlignment="Top"/>
-        <Label FontSize="20" Content="Difference:" HorizontalAlignment="Left" Margin="39,373,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Content="{DynamicResource lbTeamName}" HorizontalAlignment="Left" Margin="39,37,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Content="{DynamicResource lbFifaCode}" HorizontalAlignment="Left" Margin="39,79,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Content="{DynamicResource lbGamesPlayed}" HorizontalAlignment="Left" Margin="39,121,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Content="{DynamicResource lbWins}" HorizontalAlignment="Left" Margin="39,163,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Content="{DynamicResource lbLosses}" HorizontalAlignment="Left" Margin="39,205,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Content="{DynamicResource lbDraws}" HorizontalAlignment="Left" Margin="39,247,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Content="{DynamicResource lbGoalsScored}" HorizontalAlignment="Left" Margin="39,289,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Content="{DynamicResource lbGoalsConceived}" HorizontalAlignment="Left" Margin="39,331,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Content="{DynamicResource lbDifference}" HorizontalAlignment="Left" Margin="39,373,0,0" VerticalAlignment="Top"/>
         <Label Name="lbName" FontSize="20" Content="Test" HorizontalAlignment="Left" Margin="267,37,0,0" VerticalAlignment="Top"/>
         <Label Name="lbCode" FontSize="20" Content="Test" HorizontalAlignment="Left" Margin="267,79,0,0" VerticalAlignment="Top"/>
         <Label Name="lbPlayed" FontSize="20" Content="Test" HorizontalAlignment="Left" Margin="267,121,0,0" VerticalAlignment="Top"/>

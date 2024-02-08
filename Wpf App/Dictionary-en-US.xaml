@@ -1,0 +1,31 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:System="clr-namespace:System;assembly=System.Runtime">
+    
+    <System:String x:Key="lbFavoriteTeam">Favorite Team</System:String>
+    <System:String x:Key="lbEnemyTeam">Enemy Team</System:String>
+    <System:String x:Key="lbScore">Score</System:String>
+    <System:String x:Key="lbTeamName">Team Name:</System:String>
+    <System:String x:Key="lbPlayerName">Player Name:</System:String>
+    <System:String x:Key="lbFifaCode">FIFA Code:</System:String>
+    <System:String x:Key="lbInitSettings">Initial settings</System:String>
+    <System:String x:Key="lbGamesPlayed">Games Played:</System:String>
+    <System:String x:Key="btnFavorite">Show Favorite Info</System:String>
+    <System:String x:Key="lbWins">Wins:</System:String>
+    <System:String x:Key="lbLanguage">Language</System:String>
+    <System:String x:Key="lbNumber">Number:</System:String>
+    <System:String x:Key="btnEnemy">Show Enemy Info</System:String>
+    <System:String x:Key="rbEnglish">English</System:String>
+    <System:String x:Key="lbDraws">Draws:</System:String>
+    <System:String x:Key="btnSettings">Settings</System:String>
+    <System:String x:Key="lbGoalsScored">Goals Scored:</System:String>
+    <System:String x:Key="lbPosition">Position:</System:String>
+    <System:String x:Key="lbGoalsConceived">Goals Conceived:</System:String>
+    <System:String x:Key="btnExit">Exit</System:String>
+    <System:String x:Key="lbDifference">Difference:</System:String>
+    <System:String x:Key="rbCroatian">Croatian</System:String>
+    <System:String x:Key="lbScreen">Screen</System:String>
+    <System:String x:Key="btnContinue">Continue</System:String>
+    <System:String x:Key="lbCaptain">Captain:</System:String>
+    <System:String x:Key="lbLosses">Losses:</System:String>
+</ResourceDictionary>

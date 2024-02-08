@@ -29,3 +29,6 @@ C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\TeamDetails.
 C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\TeamDetails.baml
 C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\PlayerDetails.g.cs
 C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\PlayerDetails.baml
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\Dictionary-en-US.baml
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\Dictionary-hr.baml
+C:\My Files\Algebra\World Cup 2018\Wpf App\obj\Debug\net6.0-windows\App.baml

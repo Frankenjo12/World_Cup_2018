@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="TeamDetails" Height="450" Width="700">
     <Grid>
-        <Label FontSize="20" Content="Player Name:" HorizontalAlignment="Left" Margin="39,37,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Content="{DynamicResource lbPlayerName}" HorizontalAlignment="Left" Margin="39,37,0,0" VerticalAlignment="Top"/>
         <Label Name="lbName" FontSize="20" Content="Test" HorizontalAlignment="Left" Margin="267,37,0,0" VerticalAlignment="Top"/>
-        <Label FontSize="20" Content="Number:" HorizontalAlignment="Left" Margin="39,79,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Content="{DynamicResource lbNumber}" HorizontalAlignment="Left" Margin="39,79,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbNumber" FontSize="20" Content="Test" HorizontalAlignment="Left" Margin="267,79,0,0" VerticalAlignment="Top"/>
-        <Label FontSize="20" Content="Position:" HorizontalAlignment="Left" Margin="39,121,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Content="{DynamicResource lbPosition}" HorizontalAlignment="Left" Margin="39,121,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbPosition" FontSize="20" Content="Test" HorizontalAlignment="Left" Margin="267,121,0,0" VerticalAlignment="Top"/>
-        <Label FontSize="20" Content="Captain:" HorizontalAlignment="Left" Margin="39,163,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Content="{DynamicResource lbCaptain}" HorizontalAlignment="Left" Margin="39,163,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbCaptain" FontSize="20" Content="Test" HorizontalAlignment="Left" Margin="267,163,0,0" VerticalAlignment="Top"/>
         <Image Name="imgPlayer"  Margin="268,225,268,46"/>
     </Grid>

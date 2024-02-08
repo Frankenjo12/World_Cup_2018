@@ -45,3 +45,13 @@ C:\My Files\Algebra\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Wi
 C:\My Files\Algebra\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\ref\Windows Forms App.dll
 C:\My Files\Algebra\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows_Forms_App.Properties.Resources.resources
 C:\My Files\Algebra\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows_Forms_App.Rankings.resources
+C:\My Files\Algebra\World Cup 2018\Windows Forms App\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\My Files\Algebra\World Cup 2018\Windows Forms App\bin\Debug\net6.0-windows\itextsharp.dll
+C:\My Files\Algebra\World Cup 2018\Windows Forms App\bin\Debug\net6.0-windows\hr\Windows Forms App.resources.dll
+C:\My Files\Algebra\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows_Forms_App.Favorite_National_Team.hr.resources
+C:\My Files\Algebra\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\hr\Windows Forms App.resources.dll
+C:\My Files\Algebra\World Cup 2018\Windows Forms App\bin\Debug\net6.0-windows\hr-HR\Windows Forms App.resources.dll
+C:\My Files\Algebra\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows_Forms_App.Initial_settings.hr-HR.resources
+C:\My Files\Algebra\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows_Forms_App.Initial_settings.hr.resources
+C:\My Files\Algebra\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\Windows_Forms_App.Rankings.hr.resources
+C:\My Files\Algebra\World Cup 2018\Windows Forms App\obj\Debug\net6.0-windows\hr-HR\Windows Forms App.resources.dll

@@ -1,0 +1,31 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:System="clr-namespace:System;assembly=System.Runtime">
+
+    <System:String x:Key="lbFavoriteTeam">Najdraža momčad</System:String>
+    <System:String x:Key="lbEnemyTeam">Protivnička momčad</System:String>
+    <System:String x:Key="lbScore">Rezultat</System:String>
+    <System:String x:Key="lbTeamName">Ime momčadi:</System:String>
+    <System:String x:Key="lbPlayerName">Ime igrača:</System:String>
+    <System:String x:Key="lbFifaCode">FIFA kod:</System:String>
+    <System:String x:Key="lbInitSettings">Postavke</System:String>
+    <System:String x:Key="lbGamesPlayed">Odigrane utakmice:</System:String>
+    <System:String x:Key="btnFavorite">Podaci o favoritu</System:String>
+    <System:String x:Key="lbWins">Pobjede:</System:String>
+    <System:String x:Key="lbLanguage">Jezik</System:String>
+    <System:String x:Key="lbNumber">Broj:</System:String>
+    <System:String x:Key="btnEnemy">Podaci i protivniku</System:String>
+    <System:String x:Key="rbEnglish">Engleski</System:String>
+    <System:String x:Key="lbDraws">Izjednačenja:</System:String>
+    <System:String x:Key="btnSettings">Postavke</System:String>
+    <System:String x:Key="lbGoalsScored">Zabijeni golovi:</System:String>
+    <System:String x:Key="lbPosition">Pozicija:</System:String>
+    <System:String x:Key="lbGoalsConceived">Primljeni golovi:</System:String>
+    <System:String x:Key="btnExit">Izlaz</System:String>
+    <System:String x:Key="lbDifference">Razlika:</System:String>
+    <System:String x:Key="rbCroatian">Hrvatski</System:String>
+    <System:String x:Key="lbScreen">Ekran</System:String>
+    <System:String x:Key="btnContinue">Nastavi</System:String>
+    <System:String x:Key="lbCaptain">Kapetan:</System:String>
+    <System:String x:Key="lbLosses">Gubici:</System:String>
+</ResourceDictionary>

@@ -7,12 +7,12 @@
         mc:Ignorable="d"
         Title="Initial Settings" Height="450" Width="424">
     <Grid>
-        <Label FontSize="20" Content="Initial settings" HorizontalAlignment="Center" Margin="0,49,0,0" VerticalAlignment="Top"/>
-        <Label Content="Language" HorizontalAlignment="Left" Margin="70,121,0,0" VerticalAlignment="Top"/>
-        <RadioButton Name="rbEnglish" Content="English" HorizontalAlignment="Left" Margin="146,126,0,0" VerticalAlignment="Top"/>
-        <RadioButton Name="rbCroatian" Content="Croatian" HorizontalAlignment="Left" Margin="146,146,0,0" VerticalAlignment="Top"/>
-        <Label Content="Screen" HorizontalAlignment="Left" Margin="70,217,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Content="{DynamicResource lbInitSettings}" HorizontalAlignment="Center" Margin="0,49,0,0" VerticalAlignment="Top"/>
+        <Label Content="{DynamicResource lbLanguage}" HorizontalAlignment="Left" Margin="70,121,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="rbEnglish" Content="{DynamicResource rbEnglish}" HorizontalAlignment="Left" Margin="146,126,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="rbCroatian" Content="{DynamicResource rbCroatian}" HorizontalAlignment="Left" Margin="146,146,0,0" VerticalAlignment="Top"/>
+        <Label Content="{DynamicResource lbScreen}" HorizontalAlignment="Left" Margin="70,217,0,0" VerticalAlignment="Top"/>
         <ComboBox Name="cbScreen" HorizontalAlignment="Left" Margin="146,219,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button Name="btnContinue" Content="Continue" HorizontalAlignment="Center" Margin="0,327,0,0" VerticalAlignment="Top" Height="33" Width="108" Click="btnContinue_Click"/>
+        <Button Name="btnContinue" Content="{DynamicResource btnContinue}" HorizontalAlignment="Center" Margin="0,327,0,0" VerticalAlignment="Top" Height="33" Width="108" Click="btnContinue_Click"/>
     </Grid>
 </Window>

@@ -1,3 +1,5 @@
+using DAL.Repo.Config;
+
 namespace Windows_Forms_App
 {
     internal static class Program
@@ -16,6 +18,11 @@ namespace Windows_Forms_App
             ApplicationConfiguration.Initialize();
             if(File.Exists(PATH))
             {
+                if(Config.getLanguage().Equals("CROATIAN"))
+                {
+                    Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("hr");
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("hr");
+                }
                 Application.Run(new Favorite_National_Team());
             }
             else
